@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+    font-size: 30pt;
+    font-style: normal;
+    color:black;
+}
+body{
+    background: white;
+    text-align: justify;
+    font-size: 18pt;
+    font-family: sans-serif;
+
+    
+   
+
+}
+section{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 0.6em;
+    background: #af86e9;
+    padding: 32px;
+    font-family: sans-serif;
+    text-align: justify;
+    color:black;
+    width: 360px;
+
+
+    
+
+    
+    
+}
+fieldset{
+    border: 4px solid transparent;
+    font-size: 12pt;
+    padding: 18px;
+    margin-left: -2rem;
+    width: 120%;
+    height: 390px;
+
+}   
+
+input[type="submit"] {
+    padding: 10px;
+    background-color:#73739b;
+    margin-left: 22%;
+    border-radius: 0.9em;
+    width: 190px;
+    
+}
+input[type="text"], input[type="email"],input[type="tel"],input[type="date"] {
+    text-align: justify;
+    border-radius: 0.4em;
+    padding: 0.4em;
+    margin-left: 0.2em;
+    width:50%;
+    color: rgb(24, 23, 24);
+    font-family: sans-serif;
+    
+    
+}
+input[type="radio"]{
+    cursor: pointer;
+    margin-left: 26px;
+    font-family: 14pt;
+    
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #7d3eca;
+}
+input[type="date"]{
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 0.3em;
+
+    
+
+}
